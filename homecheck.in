@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomeCheck.in – #1 Home Inspection Services in Hyderabad | Certified Civil Engineers</title>
+  <meta name="description" content="Hyderabad's first & most trusted home inspection company. Pre-handover, thermographic, area measurement & multi-stage inspections by certified civil engineers. Book now!" />
+  <meta name="keywords" content="home inspection Hyderabad, property inspection Hyderabad, pre-handover inspection, thermographic inspection, area measurement, quality check flat Hyderabad, HomeCheck" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.homecheck.in/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="HomeCheck.in – Home Inspection Services in Hyderabad" />
+  <meta property="og:description" content="Certified civil engineers inspecting your home before you invest. Trusted by 1000+ homeowners in Hyderabad." />
+  <meta property="og:url" content="https://www.homecheck.in/" />
+  <meta name="geo.region" content="IN-TG" />
+  <meta name="geo.placename" content="Hyderabad, Telangana, India" />
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","name":"HomeCheck.in","url":"https://www.homecheck.in/","telephone":["+919701172777","+919701685777","+919866935578"],"email":"contact@homecheck.in","address":{"@type":"PostalAddress","streetAddress":"Buckingham Apartments, Road No. 12, Banjara Hills","addressLocality":"Hyderabad","addressRegion":"Telangana","postalCode":"500034","addressCountry":"IN"},"areaServed":["Hyderabad","Gachibowli","Kondapur","Miyapur","Kokapet","HITEC City","Financial District","Tellapur","Banjara Hills","Jubilee Hills","Madhapur","Kukatpally","Bachupally"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"320","bestRating":"5"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why do I need a home inspection in Hyderabad?","acceptedAnswer":{"@type":"Answer","text":"A professional inspection identifies hidden defects before possession, letting you get builder corrections at zero cost."}},{"@type":"Question","name":"How much does a home inspection cost?","acceptedAnswer":{"@type":"Answer","text":"Call +91 9701 172 777 for a custom quote based on property size and inspection type."}},{"@type":"Question","name":"What is thermographic inspection?","acceptedAnswer":{"@type":"Answer","text":"Infrared imaging detects hidden moisture, seepage, and electrical hotspots inside walls invisible to the naked eye."}}]}]}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      /* ── EXACT BRAND COLORS FROM LOGO IMAGE ── */
+      --navy:       #1B2E5E;   /* HOME text navy */
+      --navy-dark:  #0D1B3E;   /* background strip */
+      --navy-deeper:#0A1428;
+      --red:        #E8192C;   /* CHECK red */
+      --red-dark:   #C4101F;
+      --blue:       #1B6FE8;   /* accent circles */
+      --blue-dark:  #1458C4;
+      --blue-light: #3B82F6;
+      --white:      #FFFFFF;
+      --off-white:  #F5F7FF;
+      --light-gray: #EEF1F8;
+      --mid-gray:   #8B95AE;
+      --dark-text:  #0F1D3A;
+      /* Semantic */
+      --bg-page:    #FFFFFF;
+      --bg-section: #F5F7FF;
+      --bg-dark:    #0D1B3E;
+      --border-light: rgba(27,46,94,0.10);
+      --border-mid:   rgba(27,111,232,0.18);
+      --shadow-sm:  0 2px 12px rgba(27,46,94,0.08);
+      --shadow-md:  0 8px 32px rgba(27,46,94,0.14);
+      --shadow-lg:  0 20px 60px rgba(27,46,94,0.18);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg-page);
+      color: var(--dark-text);
+      overflow-x: hidden;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    /* ═══ TOPBAR ═══ */
+    .topbar {
+      background: var(--navy-dark);
+      padding: 9px 5%;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 6px;
+    }
+    .topbar-left, .topbar-right { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+    .topbar a, .topbar span {
+      color: rgba(255,255,255,0.75); text-decoration: none;
+      font-size: 0.72rem; font-weight: 500; letter-spacing: 0.02em;
+      display: flex; align-items: center; gap: 5px;
+      transition: color 0.2s;
+    }
+    .topbar a:hover { color: #fff; }
+    .topbar-sep { width: 1px; height: 12px; background: rgba(255,255,255,0.2); }
+
+    /* ═══ NAV ═══ */
+    nav {
+      position: sticky; top: 0; z-index: 500;
+      background: var(--white);
+      border-bottom: 1px solid var(--border-light);
+      box-shadow: var(--shadow-sm);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5%;
+      height: 70px;
+    }
+
+    .nav-brand {
+      display: flex; align-items: center; gap: 11px;
+      text-decoration: none;
+    }
+    .brand-icon {
+      width: 40px; height: 40px; border-radius: 9px;
+      background: var(--navy);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; flex-shrink: 0;
+    }
+    .brand-wordmark {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1.35rem; line-height: 1;
+      letter-spacing: -0.02em;
+    }
+    .brand-wordmark .w-home { color: var(--navy); }
+    .brand-wordmark .w-check { color: var(--red); }
+    .brand-wordmark .w-in { color: var(--navy); }
+    .brand-tagline { font-size: 0.58rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mid-gray); margin-top: 3px; }
+
+    .nav-menu { display: flex; align-items: center; gap: 2px; list-style: none; }
+    .nav-menu a {
+      padding: 8px 13px; border-radius: 6px;
+      color: var(--navy); font-size: 0.83rem; font-weight: 600;
+      text-decoration: none; transition: all 0.2s;
+    }
+    .nav-menu a:hover { background: var(--off-white); color: var(--blue); }
+
+    .nav-actions { display: flex; align-items: center; gap: 10px; }
+    .nav-phone {
+      display: flex; align-items: center; gap: 6px;
+      color: var(--navy); font-size: 0.8rem; font-weight: 700;
+      text-decoration: none; padding: 8px 14px;
+      border: 1.5px solid var(--border-light);
+      border-radius: 7px; transition: all 0.2s;
+    }
+    .nav-phone:hover { border-color: var(--blue); color: var(--blue); }
+    .nav-book {
+      background: var(--red); color: var(--white);
+      padding: 9px 20px; border-radius: 7px;
+      font-weight: 700; font-size: 0.8rem; letter-spacing: 0.03em;
+      text-decoration: none; text-transform: uppercase;
+      transition: all 0.25s; white-space: nowrap;
+    }
+    .nav-book:hover { background: var(--red-dark); box-shadow: 0 6px 18px rgba(232,25,44,0.35); transform: translateY(-1px); }
+
+    /* ═══ HERO ═══ */
+    .hero {
+      position: relative;
+      background: var(--navy-dark);
+      min-height: 88vh;
+      display: grid; grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+    }
+
+    /* Subtle geometric mesh on dark bg */
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0; pointer-events: none;
+      background-image:
+        radial-gradient(circle at 20% 50%, rgba(27,111,232,0.12) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(232,25,44,0.08) 0%, transparent 40%),
+        repeating-linear-gradient(60deg, rgba(27,111,232,0.03) 0, rgba(27,111,232,0.03) 1px, transparent 1px, transparent 48px);
+    }
+
+    .hero-content {
+      position: relative; z-index: 2;
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 80px 5% 80px 7%;
+    }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(232,25,44,0.15);
+      border: 1px solid rgba(232,25,44,0.4);
+      color: #FF6070; padding: 7px 15px; border-radius: 4px;
+      font-size: 0.68rem; font-weight: 800; letter-spacing: 0.1em;
+      text-transform: uppercase; width: fit-content; margin-bottom: 24px;
+      animation: fadeUp 0.7s 0.1s ease both;
+    }
+    .badge-blink { width: 6px; height: 6px; border-radius: 50%; background: var(--red); animation: blink 1.8s infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    .hero h1 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(2.5rem, 4.5vw, 4rem);
+      font-weight: 900; line-height: 1.1;
+      color: var(--white); letter-spacing: -0.02em;
+      animation: fadeUp 0.7s 0.25s ease both;
+    }
+    .hero h1 .hl-red { color: var(--red); }
+    .hero h1 .hl-blue { color: #5EA8FF; }
+
+    .hero-desc {
+      margin-top: 20px; color: rgba(255,255,255,0.65);
+      font-size: 0.95rem; line-height: 1.8; max-width: 480px;
+      animation: fadeUp 0.7s 0.4s ease both;
+    }
+
+    .hero-ctas {
+      display: flex; gap: 12px; flex-wrap: wrap;
+      margin-top: 34px;
+      animation: fadeUp 0.7s 0.55s ease both;
+    }
+    .cta-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--red); color: var(--white);
+      padding: 14px 28px; border-radius: 7px;
+      font-weight: 800; font-size: 0.88rem; letter-spacing: 0.04em;
+      text-transform: uppercase; text-decoration: none;
+      transition: all 0.25s; border: none; cursor: pointer;
+    }
+    .cta-primary:hover { background: var(--red-dark); transform: translateY(-2px); box-shadow: 0 12px 30px rgba(232,25,44,0.4); }
+    .cta-secondary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.08);
+      border: 1.5px solid rgba(255,255,255,0.22);
+      color: var(--white); padding: 14px 28px; border-radius: 7px;
+      font-weight: 700; font-size: 0.88rem;
+      text-decoration: none; transition: all 0.25s;
+    }
+    .cta-secondary:hover { background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.4); }
+
+    .hero-chips {
+      display: flex; gap: 10px; flex-wrap: wrap; margin-top: 36px;
+      animation: fadeUp 0.7s 0.7s ease both;
+    }
+    .chip {
+      display: flex; align-items: center; gap: 6px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: rgba(255,255,255,0.65); padding: 6px 12px; border-radius: 4px;
+      font-size: 0.71rem; font-weight: 600; letter-spacing: 0.04em;
+    }
+    .chip-dot { width: 6px; height: 6px; border-radius: 50%; background: #4ADE80; }
+
+    /* Hero right — visual panel */
+    .hero-visual {
+      position: relative; z-index: 2;
+      display: flex; align-items: center; justify-content: center;
+      padding: 40px 5% 40px 0;
+      animation: fadeUp 0.7s 0.3s ease both;
+    }
+
+    .hero-card-stack {
+      position: relative; width: 100%; max-width: 420px;
+    }
+    .hcard {
+      background: var(--white);
+      border-radius: 16px; overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.35);
+    }
+    .hcard-header {
+      background: var(--navy);
+      padding: 18px 22px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .hcard-title { color: var(--white); font-weight: 700; font-size: 0.85rem; }
+    .hcard-badge {
+      background: var(--red); color: var(--white);
+      padding: 3px 10px; border-radius: 100px;
+      font-size: 0.65rem; font-weight: 800; letter-spacing: 0.06em;
+    }
+    .hcard-body { padding: 20px 22px; }
+    .hcard-row {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 0; border-bottom: 1px solid var(--border-light);
+    }
+    .hcard-row:last-child { border-bottom: none; }
+    .hcard-icon {
+      width: 36px; height: 36px; border-radius: 8px;
+      background: var(--off-white); flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center; font-size: 0.9rem;
+    }
+    .hcard-label { font-size: 0.8rem; color: var(--dark-text); font-weight: 600; }
+    .hcard-status {
+      margin-left: auto; font-size: 0.65rem; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 3px 8px; border-radius: 4px;
+    }
+    .status-ok { background: rgba(74,222,128,0.12); color: #16A34A; }
+    .status-warn { background: rgba(232,25,44,0.1); color: var(--red); }
+    .status-check { background: rgba(27,111,232,0.1); color: var(--blue); }
+
+    /* Floating stat cards */
+    .float-stat {
+      position: absolute;
+      background: var(--white); border-radius: 10px;
+      padding: 12px 16px;
+      box-shadow: 0 12px 36px rgba(0,0,0,0.25);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .float-stat.f1 { top: -18px; right: -18px; animation: float1 4s ease-in-out infinite; }
+    .float-stat.f2 { bottom: -18px; left: -18px; animation: float2 5s ease-in-out infinite; }
+    @keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+    @keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(8px)} }
+
+    .fstat-icon {
+      width: 36px; height: 36px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center; font-size: 1rem;
+    }
+    .fstat-icon.red-bg { background: rgba(232,25,44,0.1); }
+    .fstat-icon.blue-bg { background: rgba(27,111,232,0.1); }
+    .fstat-n { font-family: 'Fraunces', serif; font-weight: 900; font-size: 1.1rem; color: var(--dark-text); line-height: 1; }
+    .fstat-l { font-size: 0.63rem; color: var(--mid-gray); font-weight: 600; margin-top: 2px; }
+
+    /* ═══ SERVICE RIBBON ═══ */
+    .service-ribbon {
+      background: var(--navy);
+      display: grid; grid-template-columns: repeat(4,1fr);
+    }
+    .ribbon-item {
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center; padding: 26px 16px;
+      border-right: 1px solid rgba(255,255,255,0.07);
+      text-decoration: none;
+      transition: background 0.25s;
+      cursor: pointer;
+    }
+    .ribbon-item:last-child { border-right: none; }
+    .ribbon-item:hover { background: rgba(27,111,232,0.15); }
+    .ribbon-item:hover .r-circle { background: var(--blue); }
+    .r-circle {
+      width: 52px; height: 52px; border-radius: 50%;
+      background: var(--blue); color: var(--white);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem; margin-bottom: 10px;
+      transition: background 0.25s;
+      box-shadow: 0 4px 14px rgba(27,111,232,0.4);
+    }
+    .r-label { font-size: 0.68rem; font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase; color: var(--white); }
+    .r-sub { font-size: 0.63rem; color: rgba(255,255,255,0.45); margin-top: 3px; }
+
+    /* ═══ STATS BAND ═══ */
+    .stats-band {
+      background: var(--white);
+      border-top: 3px solid var(--red);
+      border-bottom: 1px solid var(--border-light);
+      display: grid; grid-template-columns: repeat(4,1fr);
+    }
+    .stat-cell {
+      padding: 36px 20px; text-align: center;
+      border-right: 1px solid var(--border-light);
+      position: relative;
+    }
+    .stat-cell:last-child { border-right: none; }
+    .stat-cell::before {
+      content: '';
+      position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+      width: 0; height: 2px; background: var(--red);
+      transition: width 0.4s ease;
+    }
+    .stat-cell:hover::before { width: 60%; }
+    .stat-cell:hover .stat-num { color: var(--red); }
+    .stat-num {
+      font-family: 'Fraunces', serif;
+      font-size: 2.4rem; font-weight: 900; line-height: 1;
+      color: var(--navy); transition: color 0.3s;
+    }
+    .stat-num sup { font-size: 1rem; vertical-align: super; }
+    .stat-name { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--mid-gray); margin-top: 6px; }
+
+    /* ═══ SECTION COMMONS ═══ */
+    section { position: relative; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.68rem; font-weight: 800; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--red); margin-bottom: 12px;
+    }
+    .eyebrow::before {
+      content: '';
+      display: block; width: 20px; height: 2px; background: var(--red);
+    }
+    h2.sec-title {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      font-weight: 900; line-height: 1.15;
+      color: var(--navy); letter-spacing: -0.02em;
+    }
+    h2.sec-title.light { color: var(--white); }
+    .sec-desc { color: var(--mid-gray); font-size: 0.9rem; line-height: 1.75; max-width: 520px; margin-top: 12px; }
+    .sec-desc.light { color: rgba(255,255,255,0.6); }
+
+    /* ═══ SERVICES ═══ */
+    #services { padding: 90px 5%; background: var(--off-white); }
+    .svc-head { text-align: center; margin-bottom: 54px; }
+    .svc-head .sec-desc { margin: 12px auto 0; }
+
+    .svc-grid {
+      display: grid; grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+    }
+    .svc-card {
+      background: var(--white);
+      border: 1px solid var(--border-light);
+      border-radius: 12px; padding: 32px 28px;
+      transition: all 0.3s;
+      position: relative; overflow: hidden;
+    }
+    .svc-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--red), var(--blue));
+      transform: scaleX(0); transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+    .svc-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: transparent; }
+    .svc-card:hover::before { transform: scaleX(1); }
+
+    .svc-num { font-size: 0.62rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); margin-bottom: 14px; }
+    .svc-icon {
+      width: 50px; height: 50px; border-radius: 10px;
+      background: var(--off-white); border: 1px solid var(--border-light);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem; margin-bottom: 16px;
+      transition: background 0.3s;
+    }
+    .svc-card:hover .svc-icon { background: rgba(27,111,232,0.08); border-color: rgba(27,111,232,0.2); }
+    .svc-card h3 { font-size: 0.95rem; font-weight: 800; color: var(--navy); margin-bottom: 10px; line-height: 1.35; }
+    .svc-card p { font-size: 0.82rem; color: var(--mid-gray); line-height: 1.7; }
+    .svc-more {
+      display: inline-flex; align-items: center; gap: 5px;
+      color: var(--blue); font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.04em; text-transform: uppercase;
+      margin-top: 16px; text-decoration: none; transition: gap 0.2s;
+    }
+    .svc-more:hover { gap: 9px; }
+
+    /* ═══ WHY US ═══ */
+    #why { padding: 90px 5%; background: var(--white); }
+    .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+
+    .why-panel {
+      background: var(--navy);
+      border-radius: 14px; overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+    .why-panel-top {
+      background: var(--red);
+      padding: 18px 26px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .why-panel-top h3 { color: var(--white); font-size: 0.82rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+    .why-rows { }
+    .why-row {
+      display: flex; align-items: center; gap: 16px;
+      padding: 18px 26px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      transition: background 0.2s;
+    }
+    .why-row:last-child { border-bottom: none; }
+    .why-row:hover { background: rgba(27,111,232,0.08); }
+    .why-row-ico {
+      width: 42px; height: 42px; flex-shrink: 0; border-radius: 9px;
+      background: rgba(27,111,232,0.15);
+      display: flex; align-items: center; justify-content: center; font-size: 1rem;
+    }
+    .why-row-val { font-family: 'Fraunces', serif; font-size: 1.6rem; font-weight: 900; color: var(--white); line-height: 1; }
+    .why-row-lbl { font-size: 0.72rem; color: rgba(255,255,255,0.5); margin-top: 2px; font-weight: 500; }
+
+    .why-features { display: flex; flex-direction: column; gap: 14px; }
+    .why-feat {
+      display: flex; gap: 14px; align-items: flex-start;
+      padding: 20px; border-radius: 10px;
+      background: var(--off-white); border: 1px solid var(--border-light);
+      transition: all 0.25s;
+    }
+    .why-feat:hover { border-color: rgba(27,111,232,0.3); background: rgba(27,111,232,0.04); box-shadow: var(--shadow-sm); }
+    .feat-ico {
+      width: 40px; height: 40px; flex-shrink: 0; border-radius: 9px;
+      background: rgba(232,25,44,0.08); border: 1px solid rgba(232,25,44,0.15);
+      display: flex; align-items: center; justify-content: center; font-size: 1rem;
+    }
+    .why-feat h4 { font-size: 0.875rem; font-weight: 800; color: var(--navy); margin-bottom: 4px; }
+    .why-feat p { font-size: 0.78rem; color: var(--mid-gray); line-height: 1.65; }
+
+    /* ═══ PROCESS ═══ */
+    #process {
+      padding: 90px 5%;
+      background: var(--navy-dark);
+      text-align: center;
+    }
+    .process-grid {
+      display: grid; grid-template-columns: repeat(4,1fr);
+      gap: 0; margin-top: 52px;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px; overflow: hidden;
+    }
+    .proc-step {
+      padding: 40px 24px;
+      border-right: 1px solid rgba(255,255,255,0.08);
+      transition: background 0.3s;
+      position: relative;
+    }
+    .proc-step:last-child { border-right: none; }
+    .proc-step:hover { background: rgba(27,111,232,0.1); }
+    .proc-step:hover .step-n { background: var(--blue); }
+    .step-n {
+      width: 54px; height: 54px; border-radius: 50%;
+      background: var(--red); color: var(--white);
+      font-family: 'Fraunces', serif; font-size: 1.3rem; font-weight: 900;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 18px;
+      box-shadow: 0 6px 20px rgba(232,25,44,0.35);
+      transition: background 0.3s;
+    }
+    .proc-step h3 { font-size: 0.875rem; font-weight: 800; color: var(--white); margin-bottom: 10px; }
+    .proc-step p { font-size: 0.78rem; color: rgba(255,255,255,0.5); line-height: 1.7; }
+
+    /* ═══ TESTIMONIALS ═══ */
+    #reviews { padding: 90px 5%; background: var(--off-white); }
+    .rev-head { margin-bottom: 52px; }
+    .rev-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+    .rev-card {
+      background: var(--white); border: 1px solid var(--border-light);
+      border-radius: 12px; padding: 28px;
+      transition: all 0.3s;
+    }
+    .rev-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: rgba(27,111,232,0.2); }
+    .rev-stars { color: #F59E0B; font-size: 0.85rem; margin-bottom: 12px; }
+    .rev-open-quote {
+      font-family: 'Fraunces', serif;
+      font-size: 3rem; color: var(--red); line-height: 0.8;
+      margin-bottom: 8px; display: block;
+    }
+    .rev-text { font-size: 0.83rem; color: #4B5563; line-height: 1.75; font-style: italic; margin-bottom: 18px; }
+    .rev-author { display: flex; align-items: center; gap: 10px; }
+    .rev-avatar {
+      width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--red), var(--blue));
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 0.75rem; color: var(--white);
+    }
+    .rev-name { font-size: 0.82rem; font-weight: 800; color: var(--navy); }
+    .rev-loc { font-size: 0.7rem; color: var(--mid-gray); margin-top: 1px; }
+
+    /* ═══ AREAS ═══ */
+    #areas {
+      padding: 60px 5%;
+      background: var(--white);
+      border-top: 1px solid var(--border-light);
+    }
+    .areas-inner { text-align: center; }
+    .areas-title { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mid-gray); margin-bottom: 20px; }
+    .areas-tags { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .area-tag {
+      display: flex; align-items: center; gap: 6px;
+      background: var(--off-white); border: 1px solid var(--border-light);
+      color: var(--navy); padding: 7px 14px; border-radius: 5px;
+      font-size: 0.78rem; font-weight: 600; transition: all 0.2s;
+    }
+    .area-tag:hover { background: rgba(27,46,94,0.06); border-color: rgba(27,46,94,0.2); }
+    .area-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--blue); }
+
+    /* ═══ AI CHAT ═══ */
+    #ai-chat {
+      padding: 90px 5%;
+      background: var(--navy-dark);
+      text-align: center;
+    }
+    .chat-shell {
+      max-width: 680px; margin: 52px auto 0;
+      border-radius: 14px; overflow: hidden;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .chat-bar {
+      background: var(--navy);
+      padding: 15px 22px;
+      display: flex; align-items: center; gap: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .chat-avatar {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: var(--red); display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 0.75rem; color: var(--white); flex-shrink: 0;
+    }
+    .chat-bar-info h4 { font-size: 0.85rem; font-weight: 700; color: var(--white); }
+    .chat-bar-info p { font-size: 0.7rem; color: rgba(255,255,255,0.4); }
+    .chat-online { margin-left: auto; display: flex; align-items: center; gap: 5px; font-size: 0.68rem; font-weight: 600; color: #4ADE80; }
+    .online-dot { width: 6px; height: 6px; border-radius: 50%; background: #4ADE80; animation: blink 2s infinite; }
+
+    .chat-msgs {
+      background: rgba(13,27,62,0.8);
+      height: 320px; overflow-y: auto;
+      padding: 18px; display: flex; flex-direction: column; gap: 12px;
+    }
+    .chat-msgs::-webkit-scrollbar { width: 3px; }
+    .chat-msgs::-webkit-scrollbar-thumb { background: var(--blue); border-radius: 2px; }
+
+    .m { max-width: 82%; font-size: 0.84rem; line-height: 1.65; padding: 11px 15px; border-radius: 10px; animation: fadeUp 0.35s ease both; }
+    .m.bot { background: var(--navy); border: 1px solid rgba(255,255,255,0.07); align-self: flex-start; border-bottom-left-radius: 3px; color: rgba(255,255,255,0.85); }
+    .m.usr { background: var(--blue); color: var(--white); align-self: flex-end; border-bottom-right-radius: 3px; font-weight: 500; }
+    .m.typing { opacity: 0.55; font-style: italic; }
+
+    .chat-quick-wrap {
+      background: var(--navy); border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 10px 18px; display: flex; flex-wrap: wrap; gap: 7px;
+    }
+    .qc {
+      background: transparent;
+      border: 1px solid rgba(27,111,232,0.35);
+      color: #7DB8FF; padding: 5px 11px; border-radius: 4px;
+      font-size: 0.7rem; font-weight: 600; cursor: pointer;
+      transition: all 0.2s; font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .qc:hover { background: rgba(27,111,232,0.15); border-color: var(--blue); color: var(--white); }
+
+    .chat-input-row {
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 13px 18px;
+      display: flex; gap: 10px;
+    }
+    .chat-field {
+      flex: 1; background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 7px; padding: 10px 15px;
+      color: var(--white); font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.82rem; outline: none; transition: border-color 0.2s;
+    }
+    .chat-field::placeholder { color: rgba(255,255,255,0.25); }
+    .chat-field:focus { border-color: var(--blue); }
+    .chat-send-btn {
+      background: var(--red); color: var(--white);
+      border: none; border-radius: 7px;
+      padding: 10px 18px; font-weight: 800; font-size: 0.78rem;
+      letter-spacing: 0.04em; text-transform: uppercase;
+      cursor: pointer; font-family: 'Plus Jakarta Sans', sans-serif;
+      transition: all 0.2s;
+    }
+    .chat-send-btn:hover { background: var(--red-dark); }
+    .chat-send-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* ═══ FAQ ═══ */
+    #faq { padding: 90px 5%; background: var(--white); }
+    .faq-layout { display: grid; grid-template-columns: 1fr 1.6fr; gap: 80px; align-items: start; }
+    .faq-list { display: flex; flex-direction: column; gap: 6px; }
+    .faq-item {
+      border: 1px solid var(--border-light);
+      border-radius: 8px; overflow: hidden;
+      background: var(--off-white);
+    }
+    .faq-q {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 20px; cursor: pointer;
+      font-size: 0.85rem; font-weight: 700; color: var(--navy);
+      transition: color 0.2s; user-select: none;
+    }
+    .faq-q:hover { color: var(--blue); }
+    .faq-icon {
+      width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0;
+      background: rgba(27,46,94,0.08);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.65rem; color: var(--navy);
+      transition: all 0.3s;
+    }
+    .faq-item.open .faq-icon { background: var(--red); color: var(--white); transform: rotate(180deg); }
+    .faq-a {
+      max-height: 0; overflow: hidden;
+      font-size: 0.82rem; color: var(--mid-gray); line-height: 1.7;
+      transition: max-height 0.35s ease, padding 0.35s;
+      padding: 0 20px;
+    }
+    .faq-item.open .faq-a { max-height: 220px; padding: 0 20px 16px; }
+
+    /* ═══ CTA BANNER ═══ */
+    #cta-band {
+      background: var(--red);
+      padding: 80px 5%; text-align: center;
+      position: relative; overflow: hidden;
+    }
+    #cta-band::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: repeating-linear-gradient(-45deg, rgba(0,0,0,0.04) 0, rgba(0,0,0,0.04) 1px, transparent 1px, transparent 16px);
+      pointer-events: none;
+    }
+    #cta-band h2 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      font-weight: 900; color: var(--white); position: relative; z-index: 1;
+    }
+    #cta-band p { color: rgba(255,255,255,0.8); max-width: 480px; margin: 12px auto 32px; font-size: 0.9rem; position: relative; z-index: 1; }
+    .cta-band-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; position: relative; z-index: 1; }
+    .btn-wh {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--white); color: var(--red);
+      padding: 14px 30px; border-radius: 7px;
+      font-weight: 800; font-size: 0.88rem; letter-spacing: 0.04em;
+      text-decoration: none; text-transform: uppercase;
+      transition: all 0.25s;
+    }
+    .btn-wh:hover { transform: translateY(-2px); box-shadow: 0 14px 36px rgba(0,0,0,0.25); }
+    .btn-nv {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--navy-dark); color: var(--white);
+      padding: 14px 30px; border-radius: 7px;
+      font-weight: 700; font-size: 0.88rem; letter-spacing: 0.04em;
+      text-decoration: none; text-transform: uppercase;
+      transition: all 0.25s;
+    }
+    .btn-nv:hover { background: var(--navy); transform: translateY(-2px); }
+    .cta-phones {
+      display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+      margin-top: 24px; position: relative; z-index: 1;
+    }
+    .ph-chip {
+      display: flex; align-items: center; gap: 7px;
+      background: rgba(255,255,255,0.18); border: 1px solid rgba(255,255,255,0.3);
+      color: var(--white); padding: 9px 18px; border-radius: 6px;
+      text-decoration: none; font-weight: 700; font-size: 0.83rem;
+      transition: background 0.2s;
+    }
+    .ph-chip:hover { background: rgba(255,255,255,0.28); }
+
+    /* ═══ FOOTER ═══ */
+    footer {
+      background: var(--navy-deeper);
+      border-top: 3px solid var(--red);
+      padding: 60px 5% 28px;
+    }
+    .footer-top {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px; padding-bottom: 48px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .foot-brand-name {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1.35rem; letter-spacing: -0.01em;
+    }
+    .foot-brand-name .fn-home { color: var(--white); }
+    .foot-brand-name .fn-check { color: var(--red); }
+    .foot-brand-name .fn-in { color: var(--white); }
+    .foot-tag { font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-top: 2px; }
+    .foot-about { font-size: 0.78rem; color: rgba(255,255,255,0.4); line-height: 1.75; margin-top: 14px; }
+    .foot-addr { font-size: 0.73rem; color: rgba(255,255,255,0.28); margin-top: 12px; line-height: 1.65; }
+    .foot-col h5 { font-size: 0.65rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 14px; }
+    .foot-col ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .foot-col a { font-size: 0.78rem; color: rgba(255,255,255,0.48); text-decoration: none; transition: color 0.2s; }
+    .foot-col a:hover { color: var(--blue-light); }
+    .footer-bottom {
+      padding-top: 22px;
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+    }
+    .footer-bottom p { font-size: 0.72rem; color: rgba(255,255,255,0.22); }
+    .foot-socials { display: flex; gap: 8px; }
+    .soc-btn {
+      width: 32px; height: 32px; border-radius: 6px;
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.38); font-size: 0.78rem;
+      text-decoration: none; transition: all 0.2s;
+    }
+    .soc-btn:hover { background: var(--red); border-color: var(--red); color: var(--white); }
+
+    /* ═══ WHATSAPP ═══ */
+    .wa {
+      position: fixed; bottom: 26px; right: 26px; z-index: 600;
+      width: 56px; height: 56px; border-radius: 50%;
+      background: #25D366;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 6px 24px rgba(37,211,102,0.5);
+      text-decoration: none; color: var(--white);
+      transition: transform 0.25s, box-shadow 0.25s;
+      animation: popIn 0.7s 1.8s ease both;
+    }
+    .wa:hover { transform: scale(1.1); box-shadow: 0 10px 32px rgba(37,211,102,0.6); }
+    @keyframes popIn { from{opacity:0;transform:scale(0)} 80%{transform:scale(1.1)} to{opacity:1;transform:scale(1)} }
+
+    /* ═══ ANIMATIONS ═══ */
+    @keyframes fadeUp { from{opacity:0;transform:translateY(22px)} to{opacity:1;transform:none} }
+    .reveal { opacity:0; transform:translateY(22px); transition: opacity 0.55s ease, transform 0.55s ease; }
+    .reveal.in { opacity:1; transform:none; }
+
+    /* ═══ RESPONSIVE ═══ */
+    @media(max-width:1100px) {
+      .svc-grid { grid-template-columns: repeat(2,1fr); }
+      .why-grid { grid-template-columns: 1fr; gap: 40px; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+    }
+    @media(max-width:900px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-visual { display: none; }
+      .process-grid { grid-template-columns: repeat(2,1fr); }
+    }
+    @media(max-width:700px) {
+      .topbar { font-size: 0.65rem; }
+      .nav-menu, .nav-phone { display: none; }
+      .service-ribbon { grid-template-columns: repeat(2,1fr); }
+      .stats-band { grid-template-columns: repeat(2,1fr); }
+      .svc-grid { grid-template-columns: 1fr; }
+      .rev-grid { grid-template-columns: 1fr; }
+      .faq-layout { grid-template-columns: 1fr; gap: 40px; }
+      .footer-top { grid-template-columns: 1fr; }
+      .hero-content { padding: 70px 5% 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ TOPBAR ══ -->
+<div class="topbar" role="complementary" aria-label="Contact information">
+  <div class="topbar-left">
+    <span>📍 Buckingham Apts, Road No. 12, Banjara Hills, Hyderabad – 500034</span>
+    <div class="topbar-sep" aria-hidden="true"></div>
+    <a href="mailto:contact@homecheck.in">✉ contact@homecheck.in</a>
+  </div>
+  <div class="topbar-right">
+    <a href="tel:+919701172777">📞 +91 9701 172 777</a>
+    <div class="topbar-sep" aria-hidden="true"></div>
+    <a href="tel:+919701685777">📞 +91 9701 685 777</a>
+  </div>
+</div>
+
+<!-- ══ NAV ══ -->
+<nav role="navigation" aria-label="Main navigation">
+  <a class="nav-brand" href="https://www.homecheck.in/" aria-label="HomeCheck.in Homepage">
+    <div class="brand-icon" aria-hidden="true">🏠</div>
+    <div>
+      <div class="brand-wordmark"><span class="w-home">HOME</span><span class="w-check">CHECK</span><span class="w-in">.IN</span></div>
+      <div class="brand-tagline">Inspection Services</div>
+    </div>
+  </a>
+  <ul class="nav-menu" role="list">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#ai-chat">AI Chat</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a class="nav-phone" href="tel:+919701172777" aria-label="Call HomeCheck">📞 9701 172 777</a>
+    <a class="nav-book" href="https://homecheck.in/request-for-home-check/" target="_blank" rel="noopener">Book Inspection</a>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<header class="hero" role="banner">
+  <div class="hero-content">
+    <div class="hero-badge" aria-label="Hyderabad's first home inspection company">
+      <span class="badge-blink" aria-hidden="true"></span>
+      Hyderabad's First &amp; Most Trusted Since 2016
+    </div>
+
+    <h1>
+      Don't Move In<br/>
+      <span class="hl-red">Before You</span><br/>
+      <span class="hl-blue">Inspect It.</span>
+    </h1>
+
+    <p class="hero-desc">
+      Certified civil engineers run a 250+ point check on your flat, villa, or building
+      — catching hidden seepage, structural defects &amp; area shortfalls before they cost you lakhs.
+    </p>
+
+    <div class="hero-ctas">
+      <a class="cta-primary" href="https://homecheck.in/request-for-home-check/" target="_blank" rel="noopener">
+        Book Inspection Now →
+      </a>
+      <a class="cta-secondary" href="tel:+919701172777">
+        📞 Call Us
+      </a>
+    </div>
+
+    <div class="hero-chips">
+      <div class="chip"><span class="chip-dot" aria-hidden="true"></span> Certified Civil Engineers</div>
+      <div class="chip"><span class="chip-dot" aria-hidden="true"></span> 48-Hr Photo Reports</div>
+      <div class="chip"><span class="chip-dot" aria-hidden="true"></span> 100% Builder-Independent</div>
+    </div>
+  </div>
+
+  <div class="hero-visual" aria-hidden="true">
+    <div class="hero-card-stack">
+      <!-- Floating stat: top right -->
+      <div class="float-stat f1">
+        <div class="fstat-icon red-bg">🔍</div>
+        <div>
+          <div class="fstat-n">300+</div>
+          <div class="fstat-l">Defects Found Monthly</div>
+        </div>
+      </div>
+
+      <!-- Main inspection card -->
+      <div class="hcard">
+        <div class="hcard-header">
+          <span class="hcard-title">📋 Inspection Report — 3BHK, Kondapur</span>
+          <span class="hcard-badge">LIVE</span>
+        </div>
+        <div class="hcard-body">
+          <div class="hcard-row">
+            <div class="hcard-icon">🧱</div>
+            <span class="hcard-label">Structural Integrity</span>
+            <span class="hcard-status status-ok">✓ Pass</span>
+          </div>
+          <div class="hcard-row">
+            <div class="hcard-icon">💧</div>
+            <span class="hcard-label">Seepage / Waterproofing</span>
+            <span class="hcard-status status-warn">⚠ Defect</span>
+          </div>
+          <div class="hcard-row">
+            <div class="hcard-icon">⚡</div>
+            <span class="hcard-label">Electrical Wiring</span>
+            <span class="hcard-status status-warn">⚠ Issue</span>
+          </div>
+          <div class="hcard-row">
+            <div class="hcard-icon">🚿</div>
+            <span class="hcard-label">Plumbing Fixtures</span>
+            <span class="hcard-status status-ok">✓ Pass</span>
+          </div>
+          <div class="hcard-row">
+            <div class="hcard-icon">📐</div>
+            <span class="hcard-label">Area Measurement</span>
+            <span class="hcard-status status-warn">⚠ Shortfall</span>
+          </div>
+          <div class="hcard-row">
+            <div class="hcard-icon">🌡️</div>
+            <span class="hcard-label">Thermographic Scan</span>
+            <span class="hcard-status status-check">→ In Progress</span>
+          </div>
+          <div class="hcard-row">
+            <div class="hcard-icon">🚪</div>
+            <span class="hcard-label">Doors &amp; Windows</span>
+            <span class="hcard-status status-ok">✓ Pass</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating stat: bottom left -->
+      <div class="float-stat f2">
+        <div class="fstat-icon blue-bg">⭐</div>
+        <div>
+          <div class="fstat-n">4.9★</div>
+          <div class="fstat-l">320+ Reviews</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ══ SERVICE RIBBON ══ -->
+<div class="service-ribbon" role="navigation" aria-label="Services quick navigation">
+  <a class="ribbon-item" href="https://homecheck.in/living-condition-check/" target="_blank" rel="noopener">
+    <div class="r-circle" aria-hidden="true">🏠</div>
+    <div class="r-label">Multi Stage Check</div>
+    <div class="r-sub">Property audit</div>
+  </a>
+  <a class="ribbon-item" href="https://homecheck.in/quality-inspection-check/" target="_blank" rel="noopener">
+    <div class="r-circle" aria-hidden="true">🔍</div>
+    <div class="r-label">Quality Inspection</div>
+    <div class="r-sub">Multi-stage check</div>
+  </a>
+  <a class="ribbon-item" href="https://homecheck.in/area-measurment/" target="_blank" rel="noopener">
+    <div class="r-circle" aria-hidden="true">📐</div>
+    <div class="r-label">Area Measurement</div>
+    <div class="r-sub">Carpet area verification</div>
+  </a>
+  <a class="ribbon-item" href="https://homecheck.in/thermographic-check/" target="_blank" rel="noopener">
+    <div class="r-circle" aria-hidden="true">🌡️</div>
+    <div class="r-label">Thermographic Check</div>
+    <div class="r-sub">Infrared seepage scan</div>
+  </a>
+</div>
+
+<!-- ══ STATS ══ -->
+<div class="stats-band" role="region" aria-label="Key statistics">
+  <div class="stat-cell">
+    <div class="stat-num">8<sup>+</sup></div>
+    <div class="stat-name">Years Experience</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-num">1K<sup>+</sup></div>
+    <div class="stat-name">Happy Clients</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-num">4.9<sup>★</sup></div>
+    <div class="stat-name">Client Satisfaction</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-num">250<sup>+</sup></div>
+    <div class="stat-name">Point Checklist</div>
+  </div>
+</div>
+
+<!-- ══ SERVICES ══ -->
+<section id="services" aria-labelledby="svc-heading">
+  <div class="svc-head reveal">
+    <span class="eyebrow">Our Services</span>
+    <h2 class="sec-title" id="svc-heading">Every Inspection You Need,<br/>All Under One Roof</h2>
+    <p class="sec-desc">From first brick to final possession — comprehensive property inspections by Hyderabad's most experienced civil engineering team.</p>
+  </div>
+  <div class="svc-grid">
+    <article class="svc-card reveal">
+      <div class="svc-num">Service 01</div>
+      <div class="svc-icon" aria-hidden="true">🏠</div>
+      <h3>Pre-Handover Comprehensive Inspection</h3>
+      <p>End-to-end check of your new flat before possession — civil, electrical, plumbing, doors, windows, flooring, and all finishes covered by certified engineers.</p>
+      <a class="svc-more" href="https://homecheck.in/living-condition-check/" target="_blank" rel="noopener">Learn More →</a>
+    </article>
+    <article class="svc-card reveal">
+      <div class="svc-num">Service 02</div>
+      <div class="svc-icon" aria-hidden="true">🏗️</div>
+      <h3>Multi-Stage Property Inspection</h3>
+      <p>Inspect under-construction buildings at every key stage — foundation, slab, brickwork, plaster — catching structural issues before they're buried in concrete.</p>
+      <a class="svc-more" href="https://homecheck.in/quality-inspection-check/" target="_blank" rel="noopener">Learn More →</a>
+    </article>
+    <article class="svc-card reveal">
+      <div class="svc-num">Service 03</div>
+      <div class="svc-icon" aria-hidden="true">🌡️</div>
+      <h3>Thermographic &amp; Seepage Inspection</h3>
+      <p>Professional infrared thermal imaging detects hidden water seepage, moisture pockets, and electrical hotspots that are invisible to the naked eye.</p>
+      <a class="svc-more" href="https://homecheck.in/thermographic-check/" target="_blank" rel="noopener">Learn More →</a>
+    </article>
+    <article class="svc-card reveal">
+      <div class="svc-num">Service 04</div>
+      <div class="svc-icon" aria-hidden="true">📐</div>
+      <h3>Area Measurement Inspection</h3>
+      <p>Accurate measurement of carpet area, built-up area, and super built-up area — verify you've received the exact square footage you paid for.</p>
+      <a class="svc-more" href="https://homecheck.in/area-measurment/" target="_blank" rel="noopener">Learn More →</a>
+    </article>
+    <article class="svc-card reveal">
+      <div class="svc-num">Service 05</div>
+      <div class="svc-icon" aria-hidden="true">🔄</div>
+      <h3>Re-Inspection Service</h3>
+      <p>After builder fixes, we revisit to verify every defect is genuinely resolved — no more empty commitments or superficial patch-up jobs.</p>
+      <a class="svc-more" href="https://homecheck.in/re-inspection/" target="_blank" rel="noopener">Learn More →</a>
+    </article>
+    <article class="svc-card reveal">
+      <div class="svc-num">Service 06</div>
+      <div class="svc-icon" aria-hidden="true">🔑</div>
+      <h3>Rental &amp; Handover Inspection</h3>
+      <p>Moving in or tenant vacating? Document property condition with photographs and a detailed report — protect your deposit and avoid disputes.</p>
+      <a class="svc-more" href="https://homecheck.in/request-for-home-check/" target="_blank" rel="noopener">Book Now →</a>
+    </article>
+  </div>
+</section>
+
+<!-- ══ WHY US ══ -->
+<section id="why" aria-labelledby="why-heading">
+  <div class="why-grid">
+    <div class="why-panel reveal">
+      <div class="why-panel-top">
+        <span style="font-size:1.1rem">📊</span>
+        <h3>HomeCheck by the Numbers</h3>
+      </div>
+      <div class="why-rows">
+        <div class="why-row">
+          <div class="why-row-ico">🔍</div>
+          <div><div class="why-row-val">300+</div><div class="why-row-lbl">Defects identified &amp; reported monthly</div></div>
+        </div>
+        <div class="why-row">
+          <div class="why-row-ico">💰</div>
+          <div><div class="why-row-val">₹8L+</div><div class="why-row-lbl">Average client savings from builder corrections</div></div>
+        </div>
+        <div class="why-row">
+          <div class="why-row-ico">⚡</div>
+          <div><div class="why-row-val">48 hrs</div><div class="why-row-lbl">Photo-documented report delivered digitally</div></div>
+        </div>
+        <div class="why-row">
+          <div class="why-row-ico">📍</div>
+          <div><div class="why-row-val">15+</div><div class="why-row-lbl">Hyderabad areas served</div></div>
+        </div>
+        <div class="why-row">
+          <div class="why-row-ico">🎓</div>
+          <div><div class="why-row-val">100%</div><div class="why-row-lbl">Inspections by certified civil engineers</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <span class="eyebrow">Why HomeCheck.in</span>
+      <h2 class="sec-title" id="why-heading">Independent. Expert.<br/>No Conflicts of Interest.</h2>
+      <p class="sec-desc">We work exclusively for you — not for the builder, developer, or agent. Our only goal is protecting your investment.</p>
+
+      <div class="why-features" style="margin-top:28px">
+        <div class="why-feat reveal">
+          <div class="feat-ico">🎓</div>
+          <div>
+            <h4>Certified Civil Engineers</h4>
+            <p>Every inspection is conducted by qualified B.E./B.Tech civil engineers with real construction experience — not generic checklists by untrained staff.</p>
+          </div>
+        </div>
+        <div class="why-feat reveal">
+          <div class="feat-ico">📋</div>
+          <div>
+            <h4>250+ Point Inspection Checklist</h4>
+            <p>A rigorous standardized checklist covering civil, electrical, plumbing, joinery, waterproofing, and aesthetics — nothing gets missed.</p>
+          </div>
+        </div>
+        <div class="why-feat reveal">
+          <div class="feat-ico">📸</div>
+          <div>
+            <h4>Photo-Documented PDF Reports</h4>
+            <p>Every defect is photographed, described, and categorized in a structured PDF report you can hand directly to your builder for corrections.</p>
+          </div>
+        </div>
+        <div class="why-feat reveal">
+          <div class="feat-ico">🏆</div>
+          <div>
+            <h4>Hyderabad's First Inspection Firm</h4>
+            <p>Operating since 2016 — Hyderabad's pioneering, most experienced dedicated home inspection company with 1,000+ successful inspections completed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROCESS ══ -->
+<section id="process" aria-labelledby="process-heading">
+  <div class="reveal">
+    <span class="eyebrow" style="color:rgba(255,255,255,0.5);border:none;padding:0">How It Works</span>
+    <h2 class="sec-title light" id="process-heading">Get Inspected in 4 Simple Steps</h2>
+    <p class="sec-desc light">Fast, professional, and completely hassle-free — from booking to builder-ready report.</p>
+  </div>
+  <div class="process-grid" role="list">
+    <div class="proc-step reveal" role="listitem">
+      <div class="step-n" aria-label="Step 1">1</div>
+      <h3>Book Online or Call</h3>
+      <p>Fill the request form or call us. We confirm a convenient date and time for your property inspection.</p>
+    </div>
+    <div class="proc-step reveal" role="listitem">
+      <div class="step-n" aria-label="Step 2">2</div>
+      <h3>On-Site Inspection</h3>
+      <p>Our certified civil engineer visits and conducts a 250+ point check using professional tools and thermal cameras.</p>
+    </div>
+    <div class="proc-step reveal" role="listitem">
+      <div class="step-n" aria-label="Step 3">3</div>
+      <h3>Report in 48 Hours</h3>
+      <p>A comprehensive photo-documented PDF report is emailed within 48 hours — clear, actionable, and builder-ready.</p>
+    </div>
+    <div class="proc-step reveal" role="listitem">
+      <div class="step-n" aria-label="Step 4">4</div>
+      <h3>Get Corrections Done</h3>
+      <p>Present the report to your builder, get all defects fixed. Book a re-inspection to confirm every issue is resolved.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ REVIEWS ══ -->
+<section id="reviews" aria-labelledby="reviews-heading">
+  <div class="rev-head reveal">
+    <span class="eyebrow">Client Reviews</span>
+    <h2 class="sec-title" id="reviews-heading">Trusted by Hyderabad Homeowners</h2>
+    <p class="sec-desc">Real stories from real clients — from 2BHK flats to G+4 commercial buildings.</p>
+  </div>
+  <div class="rev-grid">
+    <article class="rev-card reveal">
+      <span class="rev-open-quote" aria-hidden="true">"</span>
+      <div class="rev-stars" aria-label="5 star review">★★★★★</div>
+      <p class="rev-text">Their civil engineers found seepage and electrical issues I'd have never spotted before taking possession. Very happy with the quality inspection service.</p>
+      <div class="rev-author"><div class="rev-avatar" aria-hidden="true">RK</div><div><div class="rev-name">Ravi Kumar</div><div class="rev-loc">2BHK · Miyapur, Hyderabad</div></div></div>
+    </article>
+    <article class="rev-card reveal">
+      <span class="rev-open-quote" aria-hidden="true">"</span>
+      <div class="rev-stars" aria-label="5 star review">★★★★★</div>
+      <p class="rev-text">The team explained every issue clearly. Got all corrections done from the builder before moving in. Highly recommended for anyone buying a flat in Hyderabad!</p>
+      <div class="rev-author"><div class="rev-avatar" aria-hidden="true">SR</div><div><div class="rev-name">Sneha Reddy</div><div class="rev-loc">3BHK · Kondapur, Hyderabad</div></div></div>
+    </article>
+    <article class="rev-card reveal">
+      <span class="rev-open-quote" aria-hidden="true">"</span>
+      <div class="rev-stars" aria-label="5 star review">★★★★★</div>
+      <p class="rev-text">Thermographic inspection found hidden leakage inside walls using advanced infrared tools. Truly impressed with their technology and civil engineering expertise.</p>
+      <div class="rev-author"><div class="rev-avatar" aria-hidden="true">AM</div><div><div class="rev-name">Arjun Mehta</div><div class="rev-loc">4BHK Luxury · Kokapet, Hyderabad</div></div></div>
+    </article>
+    <article class="rev-card reveal">
+      <span class="rev-open-quote" aria-hidden="true">"</span>
+      <div class="rev-stars" aria-label="5 star review">★★★★★</div>
+      <p class="rev-text">Multi-stage inspection for my G+2 villa from foundation to finishing. Saved me from major future problems. Very professional engineers and excellent reports.</p>
+      <div class="rev-author"><div class="rev-avatar" aria-hidden="true">PG</div><div><div class="rev-name">Praveen Goud</div><div class="rev-loc">Villa G+2 · Tellapur, Hyderabad</div></div></div>
+    </article>
+    <article class="rev-card reveal">
+      <span class="rev-open-quote" aria-hidden="true">"</span>
+      <div class="rev-stars" aria-label="5 star review">★★★★★</div>
+      <p class="rev-text">As a builder, their quality inspection and area verification helped us maintain high standards and avoid customer complaints. Very systematic approach. Highly recommend.</p>
+      <div class="rev-author"><div class="rev-avatar" aria-hidden="true">SP</div><div><div class="rev-name">Suresh Patel</div><div class="rev-loc">G+4 Building · Gachibowli, Hyderabad</div></div></div>
+    </article>
+    <article class="rev-card reveal">
+      <span class="rev-open-quote" aria-hidden="true">"</span>
+      <div class="rev-stars" aria-label="5 star review">★★★★★</div>
+      <p class="rev-text">Both multi-stage and final inspection for our commercial building. Very reliable and knowledgeable team. Their report helped get all issues resolved before tenant handover.</p>
+      <div class="rev-author"><div class="rev-avatar" aria-hidden="true">KR</div><div><div class="rev-name">Karthik Reddy</div><div class="rev-loc">Commercial · Tellapur, Hyderabad</div></div></div>
+    </article>
+  </div>
+</section>
+
+<!-- ══ AREAS ══ -->
+<section id="areas" aria-labelledby="areas-heading">
+  <div class="areas-inner">
+    <div class="areas-title" id="areas-heading">Areas We Serve Across Hyderabad</div>
+    <div class="areas-tags">
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Gachibowli</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Kondapur</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Miyapur</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Kokapet</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>HITEC City</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Financial District</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Tellapur</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Banjara Hills</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Jubilee Hills</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Madhapur</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Kukatpally</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Bachupally</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Narsingi</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Shamshabad</div>
+      <div class="area-tag"><span class="area-dot" aria-hidden="true"></span>Manikonda</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ AI CHAT ══ -->
+<section id="ai-chat" aria-labelledby="ai-heading">
+  <div class="reveal">
+    <span class="eyebrow" style="color:rgba(255,255,255,0.5);border:none;padding:0">AI Assistant</span>
+    <h2 class="sec-title light" id="ai-heading">Ask HomeCheck AI — Get Instant Answers</h2>
+    <p class="sec-desc light" style="margin:12px auto 0; text-align:center">Powered by Claude AI · Available 24/7 · Ask anything about our services, pricing or booking</p>
+  </div>
+  <div class="chat-shell" role="region" aria-label="AI Chat assistant">
+    <div class="chat-bar">
+      <div class="chat-avatar" aria-hidden="true">AI</div>
+      <div class="chat-bar-info">
+        <h4>HomeCheck AI Assistant</h4>
+        <p>Powered by Claude · Replies instantly</p>
+      </div>
+      <div class="chat-online"><span class="online-dot" aria-hidden="true"></span> Online</div>
+    </div>
+    <div class="chat-msgs" id="chatMsgs" aria-live="polite">
+      <div class="m bot">👋 Welcome to HomeCheck.in! I'm your AI assistant. Ask me anything about home inspection services in Hyderabad — pricing, process, which inspection you need, or how to book.</div>
+    </div>
+    <div class="chat-quick-wrap">
+      <button class="qc" onclick="quickSend(this)">What services do you offer?</button>
+      <button class="qc" onclick="quickSend(this)">How much does inspection cost?</button>
+      <button class="qc" onclick="quickSend(this)">What is thermographic inspection?</button>
+      <button class="qc" onclick="quickSend(this)">Which areas do you cover?</button>
+    </div>
+    <div class="chat-input-row">
+      <input type="text" class="chat-field" id="chatIn" placeholder="Type your question here…" aria-label="Chat input" />
+      <button class="chat-send-btn" id="chatSendBtn" onclick="doSend()">Send</button>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section id="faq" aria-labelledby="faq-heading">
+  <div class="faq-layout">
+    <div class="reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2 class="sec-title" id="faq-heading">Questions Every<br/>Homebuyer Asks Us</h2>
+      <p class="sec-desc">Everything you need to know before booking a home inspection in Hyderabad.</p>
+      <a href="https://homecheck.in/faqs/" class="cta-primary" style="margin-top:28px; display:inline-flex;" target="_blank" rel="noopener">View All FAQs →</a>
+    </div>
+    <div class="faq-list" role="list">
+      <div class="faq-item reveal" role="listitem">
+        <div class="faq-q" onclick="toggleFaq(this)" tabindex="0" role="button" aria-expanded="false">
+          Why do I need a home inspection before possession?
+          <span class="faq-icon" aria-hidden="true">▼</span>
+        </div>
+        <div class="faq-a">Builders don't always disclose hidden defects. A professional inspection provides documented evidence to get all corrections done by the builder at zero cost — before you accept possession and lose all leverage.</div>
+      </div>
+      <div class="faq-item reveal" role="listitem">
+        <div class="faq-q" onclick="toggleFaq(this)" tabindex="0" role="button" aria-expanded="false">
+          How much does a home inspection cost in Hyderabad?
+          <span class="faq-icon" aria-hidden="true">▼</span>
+        </div>
+        <div class="faq-a">Our fees are minimal compared to the cost of post-possession repairs. Pricing depends on property size and inspection type. Call +91 9701 172 777 for a quick custom quote — usually within minutes.</div>
+      </div>
+      <div class="faq-item reveal" role="listitem">
+        <div class="faq-q" onclick="toggleFaq(this)" tabindex="0" role="button" aria-expanded="false">
+          What is thermographic / infrared inspection?
+          <span class="faq-icon" aria-hidden="true">▼</span>
+        </div>
+        <div class="faq-a">Thermographic inspection uses professional infrared cameras to detect hidden moisture, seepage, and electrical hotspots inside walls and ceilings — problems that look perfectly normal visually but cause serious long-term structural damage.</div>
+      </div>
+      <div class="faq-item reveal" role="listitem">
+        <div class="faq-q" onclick="toggleFaq(this)" tabindex="0" role="button" aria-expanded="false">
+          How long does a home inspection take?
+          <span class="faq-icon" aria-hidden="true">▼</span>
+        </div>
+        <div class="faq-a">A standard 2BHK inspection takes 2–3 hours. Larger 3–4BHK properties and villas take 4–6 hours. The detailed photo-documented report is delivered via email within 48 hours of inspection completion.</div>
+      </div>
+      <div class="faq-item reveal" role="listitem">
+        <div class="faq-q" onclick="toggleFaq(this)" tabindex="0" role="button" aria-expanded="false">
+          Which areas in Hyderabad do you cover?
+          <span class="faq-icon" aria-hidden="true">▼</span>
+        </div>
+        <div class="faq-a">We cover all major Hyderabad locations — Gachibowli, Kondapur, Miyapur, Kokapet, HITEC City, Financial District, Tellapur, Banjara Hills, Jubilee Hills, Madhapur, Kukatpally, Bachupally, Narsingi, Shamshabad, and more.</div>
+      </div>
+      <div class="faq-item reveal" role="listitem">
+        <div class="faq-q" onclick="toggleFaq(this)" tabindex="0" role="button" aria-expanded="false">
+          Can I be present during the inspection?
+          <span class="faq-icon" aria-hidden="true">▼</span>
+        </div>
+        <div class="faq-a">Absolutely — we encourage it! Being present lets our engineer walk you through each finding in real-time, explain severity, and answer your questions on the spot so you fully understand your property's condition.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA BAND ══ -->
+<section id="cta-band" aria-labelledby="cta-heading">
+  <h2 id="cta-heading">Don't Move In Blind.<br/>Get Inspected First.</h2>
+  <p>One inspection prevents lakhs in post-possession repair bills. Book Hyderabad's most trusted home inspection today.</p>
+  <div class="cta-band-btns">
+    <a class="btn-wh" href="https://homecheck.in/request-for-home-check/" target="_blank" rel="noopener">Book Inspection Now →</a>
+    <a class="btn-nv" href="https://wa.me/919701172777?text=Hi%2C+I%27d+like+to+book+a+home+inspection+in+Hyderabad" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+  </div>
+  <div class="cta-phones">
+    <a class="ph-chip" href="tel:+919701172777">📞 +91 9701 172 777</a>
+    <a class="ph-chip" href="tel:+919701685777">📞 +91 9701 685 777</a>
+    <a class="ph-chip" href="tel:+919866935578">📞 +91 9866 935 578</a>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer role="contentinfo">
+  <div class="footer-top">
+    <div>
+      <div class="foot-brand-name"><span class="fn-home">HOME</span><span class="fn-check">CHECK</span><span class="fn-in">.IN</span></div>
+      <div class="foot-tag">Inspection Services · Est. 2016</div>
+      <p class="foot-about">Hyderabad's first dedicated home inspection firm — protecting property buyers with certified civil engineer-led inspections since 2016.</p>
+      <p class="foot-addr">Buckingham Apartments, Road No. 12,<br/>Banjara Hills, Hyderabad – 500034<br/>contact@homecheck.in</p>
+    </div>
+    <div class="foot-col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="https://homecheck.in/living-condition-check/" target="_blank" rel="noopener">Pre-Handover Check</a></li>
+        <li><a href="https://homecheck.in/quality-inspection-check/" target="_blank" rel="noopener">Multi-Stage Inspection</a></li>
+        <li><a href="https://homecheck.in/thermographic-check/" target="_blank" rel="noopener">Thermographic Check</a></li>
+        <li><a href="https://homecheck.in/area-measurment/" target="_blank" rel="noopener">Area Measurement</a></li>
+        <li><a href="https://homecheck.in/re-inspection/" target="_blank" rel="noopener">Re-Inspection</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="https://homecheck.in/about-homecheck/" target="_blank" rel="noopener">About Us</a></li>
+        <li><a href="https://homecheck.in/blog/" target="_blank" rel="noopener">Blog</a></li>
+        <li><a href="https://homecheck.in/faqs/" target="_blank" rel="noopener">FAQs</a></li>
+        <li><a href="https://homecheck.in/contact-us/" target="_blank" rel="noopener">Contact Us</a></li>
+        <li><a href="https://homecheck.in/request-for-home-check/" target="_blank" rel="noopener">Book Inspection</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="https://homecheck.in/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><a href="https://homecheck.in/terms-conditions/" target="_blank" rel="noopener">Terms &amp; Conditions</a></li>
+      </ul>
+      <h5 style="margin-top:20px">Follow Us</h5>
+      <ul>
+        <li><a href="https://www.facebook.com/gethomecheck/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/homecheckinspection/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@gethomecheck" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.linkedin.com/in/gethomecheck/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 HomeCheck.in · All Rights Reserved · Hyderabad's First Dedicated Home Inspection Company</p>
+    <div class="foot-socials">
+      <a class="soc-btn" href="https://www.facebook.com/gethomecheck/" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+      <a class="soc-btn" href="https://x.com/gethomecheck" target="_blank" rel="noopener" aria-label="Twitter">𝕏</a>
+      <a class="soc-btn" href="https://www.instagram.com/homecheckinspection/" target="_blank" rel="noopener" aria-label="Instagram">◎</a>
+      <a class="soc-btn" href="https://www.youtube.com/@gethomecheck" target="_blank" rel="noopener" aria-label="YouTube">▶</a>
+      <a class="soc-btn" href="https://www.linkedin.com/in/gethomecheck/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a class="wa" href="https://wa.me/919701172777?text=Hi%2C+I%27d+like+to+book+a+home+inspection+in+Hyderabad" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+/* ── SCROLL REVEAL ── */
+const revealEls = document.querySelectorAll('.reveal');
+new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); }
+  });
+}, { threshold: 0.1 }).observe && revealEls.forEach(el =>
+  new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.1 }).observe(el)
+);
+
+/* ── FAQ ── */
+function toggleFaq(el) {
+  const item = el.parentElement;
+  const open = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => {
+    i.classList.remove('open');
+    i.querySelector('.faq-q').setAttribute('aria-expanded','false');
+  });
+  if (!open) { item.classList.add('open'); el.setAttribute('aria-expanded','true'); }
+}
+document.querySelectorAll('.faq-q').forEach(q => {
+  q.addEventListener('keydown', e => { if (e.key==='Enter'||e.key===' ') { e.preventDefault(); toggleFaq(q); } });
+});
+
+/* ── AI CHAT ── */
+const SYS = `You are HomeCheck AI, the intelligent assistant for HomeCheck.in — Hyderabad's first and most trusted home inspection company, established in 2016.
+
+Key information:
+- Address: Buckingham Apartments, Road No. 12, Banjara Hills, Hyderabad 500034
+- Phones: +91 9701 172 777 | +91 9701 685 777 | +91 9866 935 578
+- Email: contact@homecheck.in | Website: homecheck.in
+- Services: Pre-Handover Comprehensive Inspection, Multi-Stage Property Inspection, Thermographic & Seepage Inspection (infrared), Area Measurement Inspection, Re-Inspection, Rental/Handover Inspection
+- Team: Certified B.E./B.Tech civil engineers
+- Checklist: 250+ inspection points
+- Report delivery: Within 48 hours, detailed PDF with photographs
+- Independence: 100% builder-independent — we work only for the buyer
+- Areas covered: Gachibowli, Kondapur, Miyapur, Kokapet, HITEC City, Financial District, Tellapur, Banjara Hills, Jubilee Hills, Madhapur, Kukatpally, Bachupally, Narsingi, Shamshabad, Manikonda
+
+Be warm, professional, and concise (2–4 sentences). Always guide users to book at homecheck.in/request-for-home-check/ or call for specific pricing quotes.`;
+
+const msgsEl = document.getElementById('chatMsgs');
+const inputEl = document.getElementById('chatIn');
+const btnEl = document.getElementById('chatSendBtn');
+let history = [];
+
+function addBubble(text, cls) {
+  const d = document.createElement('div');
+  d.className = 'm ' + cls; d.textContent = text;
+  msgsEl.appendChild(d); msgsEl.scrollTop = msgsEl.scrollHeight;
+  return d;
+}
+
+async function doSend() {
+  const txt = inputEl.value.trim();
+  if (!txt) return;
+  inputEl.value = ''; btnEl.disabled = true;
+  addBubble(txt, 'usr');
+  history.push({ role: 'user', content: txt });
+  const t = addBubble('Typing…', 'bot typing');
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1000,
+        system: SYS,
+        messages: history
+      })
+    });
+    const data = await res.json();
+    const reply = data.content?.[0]?.text || 'Sorry, please call us at +91 9701 172 777.';
+    t.remove(); addBubble(reply, 'bot');
+    history.push({ role: 'assistant', content: reply });
+  } catch {
+    t.remove(); addBubble('Having trouble right now. Please call +91 9701 172 777 or visit homecheck.in.', 'bot');
+  }
+  btnEl.disabled = false; inputEl.focus();
+}
+
+function quickSend(el) { inputEl.value = el.textContent; doSend(); }
+inputEl.addEventListener('keydown', e => { if (e.key === 'Enter') doSend(); });
+</script>
+</body>
+</html>
